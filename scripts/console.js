@@ -3,7 +3,7 @@ const readline = require('readline')
 const fs = require('fs')
 const express = require('express')
 const git = simpleGit();
-const remote = `https://gerrustalker:DCP_Foundation!1@github.com/gerrustalker/e2bd`;
+const remote = `https://?????!1@github.com/gerrustalker/e2bd`;
 var started = 0
 
 git.init().addRemote('origin', '${remote}', started = 1);
